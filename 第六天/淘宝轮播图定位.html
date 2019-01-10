@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝轮播图定位</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .tb {
+            width: 520px;
+            height: 280px;
+            background-color: pink;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .tb a {
+            width: 24px;
+            height: 36px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            margin-top: -18px;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            right: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .tb ul {
+            width: 70px;
+            height: 13px;
+            background-color: rgba(255,255,255,0.3);
+            position: absolute;
+            bottom: 18px;
+            left: 50%;
+            margin-left: -35px;
+            border-radius: 5px;
+        }
+        .tb ul li{
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            float: left;
+            display: inline-block;
+            margin: 3px;
+            border-radius: 5px;
+        }
+        .tb .current {
+            background-color: #f40;
+        }
+    </style>
+</head>
+<body>
+<div class="tb">
+    <img src="./images/tb.jpg">
+    <a href="#" class="left">
+        <img src="./images/left.png" alt="">
+    </a>
+    <a href="#" class="right">
+        <img src="./images/right.png" alt="">
+    </a>
+    <ul>
+        <li class="current"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
