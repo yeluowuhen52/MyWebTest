@@ -1,0 +1,76 @@
+/*京东头部 start*/
+.J_event {
+    width: 100%;
+    background-color: #000;
+}
+
+.J_event a {
+    display: block;
+    height: 80px;
+    background: url("../images/header.jpg") no-repeat;
+    position: relative;
+}
+
+.J_event a i {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-style: normal;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/*京东头部 end*/
+
+/*快捷导航开始*/
+.shortcut {
+    height: 30px;
+    background-color: #A0A0A0;
+    border-bottom: 1px solid #DDDDDD;
+    line-height: 30px;
+}
+
+.shortcut a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.shortcut a:hover {
+    color: #c81625;
+}
+
+.shortcut .fr li {
+    float: left;
+}
+
+.pos {
+    font-style: normal;
+}
+
+.spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 10px 0;
+}
+
+.dropdown {
+    padding-right: 15px;
+    position: relative;
+}
+
+.dropdown i {
+    font-family: "iconfont";
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    right: -5px;
+    top: 3px;
+}
+
+/*快捷导航结束*/
