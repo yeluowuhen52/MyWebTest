@@ -74,3 +74,13 @@
 }
 
 /*快捷导航结束*/
+
+.erweima {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    position: absolute;
+    left: -8px;
+    top: 35px;
+}
