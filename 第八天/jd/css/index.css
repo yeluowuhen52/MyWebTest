@@ -4,6 +4,10 @@
     background-color: #000;
 }
 
+body {
+    background-color: #F6F6F6
+}
+
 .J_event a {
     display: block;
     height: 80px;
@@ -48,6 +52,12 @@
     float: left;
 }
 
+.shortcut .fl li {
+    float: left;
+    height: 30px;
+    margin-left: 200px;
+}
+
 .pos {
     font-style: normal;
 }
@@ -84,3 +94,85 @@
     left: -8px;
     top: 35px;
 }
+
+/*头部开始*/
+.header {
+    height: 140px;
+}
+
+.inner {
+    height: 140px;
+    background-color: pink;
+    position: relative;
+}
+
+.logo {
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top: -31px;
+    left: 0;
+    box-shadow: 0 -12px 10px rgba(0, 0, 0, .2);
+}
+
+.logo h1 {
+    margin: 0px;
+}
+
+.logo a {
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: url("../images/logo.jpg");
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+/*搜索开始*/
+.search {
+    width: 560px;
+    height: 35px;
+    background-color: #B22D00;
+    position: absolute;
+    left: 320px;
+    top: 20px;
+}
+
+input, button {
+    padding: 0;
+    border: 0;
+}
+
+.search input {
+    width: 498px;
+    height: 33px;
+    border: 1px solid #B22D00;
+    padding-left: 5px;
+    outline: none;
+    color: #ccc;
+    float: left;
+}
+
+.search button {
+    width: 50px;
+    height: 35px;
+    background-color: #B22D00;
+    float: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.search em {
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    width: 19px;
+    height: 15px;
+    background: url("../images/sprite-search.png");
+    cursor: pointer;
+}
+.search em:hover{
+    background-position: -30px 0;
+}
+/*搜索结束*/
+/*头部结束*/
