@@ -227,11 +227,47 @@ a {
     color: #fff;
 }
 
-.computer{
+.computer {
     position: absolute;
     right: 0;
     bottom: 10px;
 }
 
 /*搜索结束*/
+
+.navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+
+.navitems ul {
+    float: left;
+}
+
+.navitems li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navitems li a {
+    font-size: 16px;
+    color: #555A5F;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+
+.navitems li a:hover {
+    color: #f10215;
+}
+
+.navitems .spacer {
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: -10px;
+}
+
 /*头部结束*/
