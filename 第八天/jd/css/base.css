@@ -43,3 +43,16 @@ ul {
     -moz-osx-font-smoothing: grayscale;
     margin-right: 5px;
 }
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix{
+    *zoom: 1;
+}

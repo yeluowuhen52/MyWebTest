@@ -271,3 +271,113 @@ a {
 }
 
 /*头部结束*/
+
+/*footer开始*/
+.footer {
+    height: 560px;
+    background-color: #EAEAEA;
+}
+
+.footer-service {
+    height: 100px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.footer-service-inner {
+    padding: 30px 0;
+    /*background-color: pink;*/
+}
+
+.footer-service-inner li {
+    float: left;
+    width: 297px;
+    height: 42px;
+    position: relative;
+}
+
+.service-unit {
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+h5, p {
+    margin: 0;
+}
+
+.service-unit h5 {
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/ico.png") no-repeat;
+
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.service-unit p {
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5.kuai {
+    background-position: 0, -42px;
+}
+
+h5.hao {
+    background-position: 0, -84px;
+}
+
+h5.sheng {
+    background-position: 0, -126px;
+}
+
+.help {
+    height: 200px;
+    padding-top: 20px;
+    /*background-color: pink;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.help dt {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.help dd {
+    height: 22px;
+}
+
+.help dd a {
+    color: #727272;
+    font-size: 12px;
+}
+
+.help dd a:hover {
+    color: #f10215;
+}
+
+.help dl {
+    float: left;
+    width: 220px;
+}
+
+.help .cover {
+    float: right;
+    width: 207px;
+    height: 150px;
+    background: url("../images/ico_footer.png");
+}
+
+.cover dt {
+
+}
